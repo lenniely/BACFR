@@ -1,0 +1,63 @@
+h1, h2, h3, ul, li, body, div {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+body{
+	color: #DB0A5B;
+	font-size: 16px;
+	padding: 5px;
+}
+header{
+	background: #2ECC71;
+	/*#87D37C #F1A9A0*/
+	width: 100%;
+	padding: 45px 0;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bolder;
+}
+ul{
+	overflow: hidden;
+	padding:0;
+	background: #2ECC71;
+	text-align: center;
+	font-size: 1.2rem
+}
+ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	font-weight: bolder;
+	background: #87D37C;
+	width: 70px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	background: #2ECC71;
+	cursor: pointer;
+}
+
+.menu{
+	width: 100%;
+	background: #2ECC71;
+	cursor: pointer;
+}
+@media screen and (max-width: 580px){
+	ul li{
+		width: 100%;
+		border-sizing: border-box;
+		padding: 5px;
+		text-align: left;
+	}
+	ul{
+		/*display: none;*/
+		max-height: 0;
+	}
+	.showing{
+		max-height: 20em;
+	}
+
+}
